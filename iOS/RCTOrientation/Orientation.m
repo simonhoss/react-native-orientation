@@ -70,9 +70,11 @@ static UIInterfaceOrientationMask _orientation = UIInterfaceOrientationMaskAllBu
           orientationStr = @"PORTRAIT";
           break;
         case UIInterfaceOrientationLandscapeLeft:
+              orientationStr = @"LANDSCAPE-LEFT";
+              break;
         case UIInterfaceOrientationLandscapeRight:
 
-          orientationStr = @"LANDSCAPE";
+          orientationStr = @"LANDSCAPE-RIGHT";
           break;
 
         case UIInterfaceOrientationPortraitUpsideDown:
@@ -114,9 +116,11 @@ static UIInterfaceOrientationMask _orientation = UIInterfaceOrientationMaskAllBu
           orientationStr = @"PORTRAIT";
           break;
         case UIInterfaceOrientationLandscapeLeft:
+              orientationStr = @"LANDSCAPE-LEFT";
+              break;
         case UIInterfaceOrientationLandscapeRight:
 
-          orientationStr = @"LANDSCAPE";
+          orientationStr = @"LANDSCAPE-RIGHT";
           break;
 
         case UIInterfaceOrientationPortraitUpsideDown:
